@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "strict": true,
+    "target": "ES2022",
+    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "*": [ "src/*", "../amisa-mock/src/*", "../amisa-node-decorators/src/*", "../amisa-node-types/src/*"]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src",
+    "index.ts",
+    "index.d.ts"
+  ],
+  "exclude": ["dist", "node_modules"]
+}
